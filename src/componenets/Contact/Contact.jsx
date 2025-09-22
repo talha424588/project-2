@@ -11,6 +11,12 @@ function Contact() {
         EMAIL, OR SOCIAL MEDIA.
       </p>
         </div>
+        <section>
+            <div className="contact-form">
+
+            </div>
+            <div className="contact-image"></div>
+        </section>
 
 
     </>
