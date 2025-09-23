@@ -1,3 +1,4 @@
+
 contact-section h1 {
   font-weight: 800;
   font-size: 48;
@@ -15,6 +16,42 @@ contact-section p {
 .top-btn
 {
     display: flex;
+    justify-content:center;
     gap: 32px;
     height: 44px;
+    width: 50%;;
+}
+section
+{
+  gap:17px;
+  display:flex;
+  flex-direction:column;
+}
+form
+{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+.form-control 
+{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+  position:relative;
+}
+
+.form-control input
+{
+  height:40px;
+  padding:0 8px;
+}
+.form-control label
+{
+  font-size:14px;
+  position:absolute;
+  top:-12px;
+  left:10px;
+  background:white;
+  padding:0 4px;
 }
