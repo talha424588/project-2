@@ -1,57 +1,55 @@
 
-contact-section h1 {
+.contact-section
+{
+  width: 100% !important;;
+}
+.contact-section h1 {
   font-weight: 800;
   font-size: 48;
 }
-contact-section p {
+.contact-section p {
   font-weight: 500;
   font-size: 16;
   color: #5a5959;
 }
-.container
-{
-    max-width: 1280px;
-    margin: 0 auto;
-}
-.top-btn
-{
-    display: flex;
-    justify-content:center;
-    gap: 32px;
-    height: 44px;
-    width: 50%;;
-}
-section
-{
-  gap:17px;
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
   display:flex;
-  flex-direction:column;
 }
-form
-{
-  display:flex;
-  flex-direction:column;
-  gap:20px;
+.top-btn {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  height: 44px;
+  /* width: 50%; */
 }
-.form-control 
-{
-  display:flex;
-  flex-direction:column;
-  width:50%;
-  position:relative;
+section {
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  position: relative;
 }
 
-.form-control input
-{
-  height:40px;
-  padding:0 8px;
+.form-control input {
+  height: 40px;
+  padding: 0 8px;
 }
-.form-control label
-{
-  font-size:14px;
-  position:absolute;
-  top:-12px;
-  left:10px;
-  background:white;
-  padding:0 4px;
+.form-control label {
+  font-size: 14px;
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background: white;
+  padding: 0 4px;
 }
